@@ -1,6 +1,6 @@
 {
   "name": "pheysx/adminer",
-  "description": "adminer boilerplate with authentication",
+  "description": "adminer instance with authentication",
   "require": {
     "dg/adminer-custom": "^1.21"
   },

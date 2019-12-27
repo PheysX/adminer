@@ -1,7 +1,7 @@
 Adminer with authentication
 ===========================
 
-Adminer instance with authentication for apache environments [Adminer](https://www.adminer.org)
+[Adminer](https://www.adminer.org) instance with authentication for apache environments.
 
 Installation
 ------------
