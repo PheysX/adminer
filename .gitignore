@@ -1,0 +1,10 @@
+# PhpStorm-Project
+/.idea/
+
+# Composer
+/composer.phar
+/vendor/*
+/composer.lock
+
+!**/.gitkeep
+/.gitattributes

@@ -1,0 +1,15 @@
+{
+  "name": "pheysx/adminer",
+  "description": "adminer boilerplate with authentication",
+  "require": {
+    "dg/adminer-custom": "^1.21"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "sh ./generate.sh"
+    ],
+    "generate-pass": [
+      "sh ./generate.sh"
+    ]
+  }
+}
