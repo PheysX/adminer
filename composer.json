@@ -1,6 +1,11 @@
 {
   "name": "pheysx/adminer",
   "description": "adminer instance with authentication",
+  "authors": [
+        {
+            "name": "Ioannis Pourliotis"
+        }
+    ],
   "require": {
     "dg/adminer-custom": "^1.21"
   },
