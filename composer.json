@@ -13,7 +13,7 @@
   },
   "scripts": {
     "generate-pass": [
-      "sh ./bin/"
+      "sh ./bin/generate.sh"
     ]
   }
 }
