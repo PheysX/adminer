@@ -17,4 +17,8 @@ jobs:
         run: composer install --prefer-dist --no-progress --no-suggest
 
       - name: Run authentication scripts
-        run: composer run-script generate-pass
+        run: |
+          composer run-script generate-pass
+          if ! grep -q "$(pwd)" .htaccess; then
+            echo "::error"
+          fi
