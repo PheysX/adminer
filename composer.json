@@ -9,14 +9,11 @@
   "homepage": "https://github.com/pheysx/adminer",
   "require": {
     "composer-runtime-api": "^2.0",
-    "vrana/adminer": "4.8.*"
+    "dg/adminer-custom": "^1.21"
   },
   "scripts": {
-    "post-install-cmd": [
-      "sh ./generate.sh"
-    ],
     "generate-pass": [
-      "sh ./generate.sh"
+      "sh ./bin/"
     ]
   }
 }

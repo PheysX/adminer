@@ -9,4 +9,5 @@
 !**/.gitkeep
 /.gitattributes
 
+.htaccess
 .htpasswd

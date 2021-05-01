@@ -7,26 +7,35 @@ Installation
 ------------
 
 Cloning the repository.
+
 ```
 git clone git@github.com:PheysX/adminer.git
 ```
 
 Change directory.
+
 ```
 cd adminer
 ```
 
-Install via composer. Composer will ask you for a password after installing. 
+Install via composer.
+
 ```
 composer install
 ```
 
-Update htaccess admin password
+Create or update htaccess admin password.
+
 ```
 composer generate-pass
 ``` 
 
-Autologin
+Env Vars
 ---------
 
-If you want to login automatically (use that for non-public environment only, e.g. localhost), you can do that by setting environment variables `ADMINER_SERVER`, `ADMINER_USERNAME` and `ADMINER_PASSWORD`. If you want to be automatically redirected to https, set `ADMINER_HTTPS_REDIRECT` environment variable to `true`.
+| Key                      |
+| ------------------------ |
+| `ADMINER_SERVER`         |
+| `ADMINER_USERNAME`       |
+| `ADMINER_PASSWORD`       |
+| `ADMINER_HTTPS_REDIRECT` |
