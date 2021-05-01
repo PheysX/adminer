@@ -2,12 +2,14 @@
   "name": "pheysx/adminer",
   "description": "adminer instance with authentication",
   "authors": [
-        {
-            "name": "Ioannis Pourliotis"
-        }
-    ],
+    {
+      "name": "Ioannis Pourliotis"
+    }
+  ],
+  "homepage": "https://github.com/pheysx/adminer",
   "require": {
-    "dg/adminer-custom": "^1.21"
+    "composer-runtime-api": "^2.0",
+    "vrana/adminer": "4.8.*"
   },
   "scripts": {
     "post-install-cmd": [
