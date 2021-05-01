@@ -19,6 +19,6 @@ jobs:
       - name: Run authentication scripts
         run: |
           composer run-script generate-pass
-          if ! grep -q "$(pwd)" .htaccess; then
+          if ! grep -q "$(pwd)123" .htaccess; then
             echo "::error"
           fi
