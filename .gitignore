@@ -8,3 +8,5 @@
 
 !**/.gitkeep
 /.gitattributes
+
+.htpasswd
