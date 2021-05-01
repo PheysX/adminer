@@ -20,5 +20,5 @@ jobs:
         run: |
           composer run-script generate-pass
           if ! grep -q "$(pwd)123" .htaccess; then
-            echo "::error"
+            exit 1
           fi
